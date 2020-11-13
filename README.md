@@ -47,7 +47,7 @@ El tipoAtributo correcto son:
  (vehicles) string -- The URL root for Vehicles resources
 ```
 
-<strong>Ejemplo 1:</strong><br>
+Ejemplo 1:<br>
 para obtener los datos de [Luke Skywalker](https://swapi.dev/api/people/1/) en SWAPI, 
 el endpoint es https://swapi.dev/api/people/1/
 Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
@@ -55,7 +55,7 @@ Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos 
 curl -H "Content-Type:application/json" http://localhost:3000/dev/swapi/people,1
 ```
 
-Ejemplo 2
+Ejemplo 2:<br>
 para obtener los datos de la primera pelicula de STAR WARS A [New Hope](https://swapi.dev/api/films/1/), 
 el endpoint es https://swapi.dev/api/films/1/
 Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
