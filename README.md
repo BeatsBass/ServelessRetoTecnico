@@ -35,19 +35,30 @@ Tu pueddes crear, listar, obtener con los siguientes comandos:
 
 Obtiene una entrada almacenada en DynamoDb 
 
-```bash
-# Replazar query por <query> una combinación (tipoAtributo,numero)
-# El tipoAtributo correcto son:
-#  films string -- The URL root for Film resources
-#  people string -- The URL root for People resources
-#  planets string -- The URL root for Planet resources
-#  species string -- The URL root for Species resources
-#  starships string -- The URL root for Starships resources
-#  vehicles string -- The URL root for Vehicles resources
-Por ejemplo, para obtener los datos de Luke Skywalker en SWAPI, el endpoint es https://swapi.dev/api/people/1/
-Entonces almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
 
+Replazar query por <query> una combinación (tipoAtributo,numero)
+El tipoAtributo correcto son:
+ films string -- The URL root for Film resources
+ people string -- The URL root for People resources
+ planets string -- The URL root for Planet resources
+ species string -- The URL root for Species resources
+ starships string -- The URL root for Starships resources
+ vehicles string -- The URL root for Vehicles resources
+
+Ejemplo 1
+para obtener los datos de Luke Skywalker en SWAPI, 
+el endpoint es https://swapi.dev/api/people/1/
+Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
+```bash
 curl -H "Content-Type:application/json" http://localhost:3000/dev/swapi/people,1
+```
+
+Ejemplo 2
+para obtener los datos de la primera pelicula de STAR WARS A [New Hope](https://swapi.dev/api/films/1/), 
+el endpoint es https://swapi.dev/api/films/1/
+Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
+```bash
+curl -H "Content-Type:application/json" http://localhost:3000/dev/swapi/films,1
 ```
 
 ### (CREATE)Crear una nueva entrada en DynamoDB
