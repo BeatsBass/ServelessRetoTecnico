@@ -63,6 +63,9 @@ Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos 
 curl -H "Content-Type:application/json" http://localhost:3000/dev/swapi/films,1
 ```
 
+
+Si la query (tipoAtributo,numero) se encuentra almacenado en DynamoDb, devuelve lo que esta en la Base de Datos.
+
 ### (CREATE)Crear una nueva entrada en DynamoDB
 
 ```bash
