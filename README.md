@@ -44,6 +44,9 @@ Obtiene una entrada almacenada en DynamoDb
 #  species string -- The URL root for Species resources
 #  starships string -- The URL root for Starships resources
 #  vehicles string -- The URL root for Vehicles resources
+ Por ejemplo, par obtener los datos de Luke Skywalker en SWAPI el endpoint es https://swapi.dev/api/people/1/
+# El numero es el id dentro de la API de SWAPI
+# El numero es el id dentro de la API de SWAPI
 # El numero es el id dentro de la API de SWAPI
 
 curl -H "Content-Type:application/json" http://localhost:3000/dev/swapi/<query>
