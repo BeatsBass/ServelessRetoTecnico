@@ -28,7 +28,7 @@ serverless offline start
 
 ## Uso
 
-Tu pueddes crear, listar, obtener con los siguientes comandos:
+Puedes crear, listar y obtener datos con los siguientes comandos:
 
 
 ### (GET) Obtener una entrada en DynamoDb
