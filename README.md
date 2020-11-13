@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+<!--
+title: 'AWS Serverless REST API with DynamoDB and offline support example in NodeJS'
+description: 'Este ejemplo demuestra como ejecutar localmente Serveless, usando ''serverless-offline'' plugin. Implementado una REST API para realizar peticiones get a la API SWAPI y luego almacenarlo en DynamoDB.'
+layout: Doc
+framework: v1
+platform: AWS
+language: nodeJS
+authorLink: 'https://github.com/adambrgmn'
+authorName: 'Adam Bergman'
+authorAvatar: 'https://avatars1.githubusercontent.com/u/13746650?v=4&s=140'
+-->
+>>>>>>> c3b9d8a51d32c9796a4aad39071bfaa81a83c645
 # Serverless REST API with DynamoDB and offline support
 
 Este ejemplo deuestra a como ejecutar localmente Serveless Framework, usando 
