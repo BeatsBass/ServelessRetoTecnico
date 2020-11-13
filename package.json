@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Serverless REST API with DynamoDB and offline support",
   "repository": "",
-  "author": "Christoph Gysin <christoph.gysin@gmail.com>",
+  "author": "Jojhan",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.0",
