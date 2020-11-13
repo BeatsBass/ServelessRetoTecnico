@@ -1,7 +1,7 @@
 # Serverless REST API with DynamoDB and offline support
 
-Este ejemplo deuestra a como ejecutar localmente Serveless Framework, usando 
-[serverless-offline](https://github.com/dherault/serverless-offline) plugin. Implementando una REST API para realizar peticiones GET a la API pública de STAR WARS [Swapi](https://swapi.dev/)traduciendo los atributos, para finalmente almacenarlo en DynamoDB.
+Este ejemplo demuestra a como ejecutar localmente Serveless Framework, usando 
+[serverless-offline](https://github.com/dherault/serverless-offline) plugin. Implementando una REST API para realizar peticiones GET a la API pública de STAR WARS [SWAPI](https://swapi.dev/) traduciendo los atributos, para finalmente almacenarlo en DynamoDB.
 
 
 ## Requerimientos
