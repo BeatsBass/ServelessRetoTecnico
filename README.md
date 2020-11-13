@@ -47,7 +47,7 @@ El tipoAtributo correcto son:
  (vehicles) string -- The URL root for Vehicles resources
 ```
 
-Ejemplo 1:<br>
+<bold>Ejemplo 1:</bold><br>
 para obtener los datos de [Luke Skywalker](https://swapi.dev/api/people/1/) en SWAPI, 
 el endpoint es https://swapi.dev/api/people/1/
 Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
