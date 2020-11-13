@@ -9,7 +9,7 @@ const deleteSpace = (str) => {
 }
 
 module.exports.translateFunction = async (word) => {
-    if (word.match(/color|url/g)) return word
+    if (word.match(/color|url|id/g)) return word
     const url = 'https://www.google.com/async/translate?vet=12ahUKEwjVotGE2PzsAhUKjlkKHY2kAs4QqDgwAHoECAEQJg..i&ei=sf-sX5WGJ4qc5gKNyYrwDA&yv=3'
     const requestBody = {
         async: `translate,sl:en,tl:es,st:${word},id:1605173268996,qc:true,ac:true,_id:tw-async-translate,_pms:s,_fmt:pc`
