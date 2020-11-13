@@ -38,15 +38,17 @@ Obtiene una entrada almacenada en DynamoDb
 
 Replazar query por <query> una combinación (tipoAtributo,numero)
 El tipoAtributo correcto son:
+```bash
  films string -- The URL root for Film resources
  people string -- The URL root for People resources
  planets string -- The URL root for Planet resources
  species string -- The URL root for Species resources
  starships string -- The URL root for Starships resources
  vehicles string -- The URL root for Vehicles resources
+```
 
 Ejemplo 1
-para obtener los datos de Luke Skywalker en SWAPI, 
+para obtener los datos de [Luke Skywalker](https://swapi.dev/api/people/1/) en SWAPI, 
 el endpoint es https://swapi.dev/api/people/1/
 Entonces para almacenar la respuesta de SWAPI, con los sus atributos traducidos al Español deberá realizar la siguiente petición:
 ```bash
