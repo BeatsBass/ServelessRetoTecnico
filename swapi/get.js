@@ -15,6 +15,7 @@ const checkElementInto = (str) => {
   else return false
 }
 
+//Antes de hacer una petición a SWAPI verifica si se encuentra en DynamoDb
 const istDataInDB = async (idApiDefault) => {
   const params = {
     TableName: process.env.DYNAMODB_TABLE,
@@ -39,7 +40,7 @@ module.exports.get = async event => {
     return {
       statusCode: error.statusCode || 501,
       headers: { 'Content-Type': 'text/plain' },
-      body: 'error no 2.',
+      body: 'Error demasiado ATRIBUTOS para buscar o pocos. Deben ser solo 2',
     };
   } else {
     const typeOfSwapi = splitQuery[0]
@@ -77,7 +78,7 @@ module.exports.get = async event => {
       return {
         statusCode: error.statusCode || 501,
         headers: { 'Content-Type': 'text/plain' },
-        body: 'error data',
+        body: 'Error en uno de los datos de la query',
       };
     }
   }

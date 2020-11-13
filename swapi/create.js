@@ -1,11 +1,11 @@
 'use strict';
 
-const uuid = require('uuid');
+/* const uuid = require('uuid'); */
 const dynamodb = require('./dynamodb');
 
 module.exports.create = async (event) => {
   const data = JSON.parse(event.body);
-  d/* ata.id = 'jyfyuyu' */
+  data.id = 'idTest'
   const params = {
     TableName: process.env.DYNAMODB_TABLE,
     Item: data
